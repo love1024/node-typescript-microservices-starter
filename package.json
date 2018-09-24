@@ -1,0 +1,19 @@
+{
+  "name": "typescript-microservices-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/love1024/node-typescript-microservices-starter.git"
+  },
+  "author": "Lovepreet Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/love1024/node-typescript-microservices-starter/issues"
+  },
+  "homepage": "https://github.com/love1024/node-typescript-microservices-starter#readme"
+}
