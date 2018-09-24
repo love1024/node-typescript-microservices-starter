@@ -1,0 +1,10 @@
+{
+  "express": {
+    "port":8081,
+    "debug":5858
+  },
+  "mongo": {
+
+  },
+  "loglevel":"info"
+}
