@@ -4,7 +4,9 @@
     "debug":5858
   },
   "mongo": {
-    "urlClient": "mongodb://127:0.0.1:27017/products"
+    "host":"localhost",
+    "port":27017,
+    "database":"typescript"
   },
   "loglevel":"info"
 }

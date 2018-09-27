@@ -27,11 +27,13 @@ export class ExpressConfig {
   }
 
   setUpControllers(){
-    const controllersPath = path.resolve('dist', 'service-layer/controllers');
+    const controllersPath = path.resolve('dist', 'controller');
     useContainer(Container);
     useExpressServer(this.app,{
-        controllers:[controllersPath+"/*.js"],
-        cors:true
+      controllers:[controllersPath+"/*.js"],
+      cors: true,
+      validation: true,
+      classTransformer: true
     });
   }
 
